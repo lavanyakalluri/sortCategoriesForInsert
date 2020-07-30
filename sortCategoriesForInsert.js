@@ -30,8 +30,6 @@ module.exports = function sortCategoriesForInsert (inputJson) {
             }
         }
     }
-    console.log(newJsonData);
     const stringJsonData = JSON.stringify(newJsonData);
-    console.log(typeof(stringJsonData));
     return stringJsonData;// return new array which is ordered and converted to string.
 }
